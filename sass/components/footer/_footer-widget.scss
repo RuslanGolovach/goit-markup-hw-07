@@ -1,0 +1,19 @@
+.footer-widget {
+	width: calc((50% - 45px) / 2);
+
+	&:last-child {
+		width: calc(50% - 15px);
+}
+}
+
+.footer-text {
+	display: flex;
+	margin-bottom: 20px;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $white;
+}
